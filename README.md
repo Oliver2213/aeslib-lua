@@ -6,3 +6,8 @@ Archive.org was able to provide some files and others were gathered from trusted
 The DLL provided (when we compile it) will provide aes.encrypt, aes.decrypt, and aes.dh for use in scripts, plugins, triggers, timers, and aliases for mushclient.
 see http://www.gammon.com.au for more information on mushclient, and
 http://www.gammon.com.au/forum/?id=4988 for a discussion of this DLL and it's uses.
+
+Update: I was able to obtain a compiled DLL from 
+http://helllua.googlecode.com/svn/trunk/aeslib.dll
+However it wasn't compiled with diffie hellman support, which means there is no aes.dh functionality.
+For now, the limited aeslib.dll is coppied into this project. I plan on recompiling with diffie hallman added just as soon as i can fix a few compilation errors.
