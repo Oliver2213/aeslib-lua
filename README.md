@@ -10,4 +10,9 @@ http://www.gammon.com.au/forum/?id=4988 for a discussion of this DLL and it's us
 Update: I was able to obtain a compiled DLL from 
 http://helllua.googlecode.com/svn/trunk/aeslib.dll
 However it wasn't compiled with diffie hellman support, which means there is no aes.dh functionality.
-For now, the limited aeslib.dll is coppied into this project. I plan on recompiling with diffie hallman added just as soon as i can fix a few compilation errors.
+For now, the limited aeslib.dll is coppied into this project. I plan on recompiling with diffie hellman added just as soon as i can fix a few compilation errors.
+
+Update:
+https://code.google.com/p/mushluamapper/source/browse/trunk/
+Seems to have the files we're looking for (one of the previous ones had errors when compiling under cygwin), so i'll be coppying these files in to the project.
+I'll make the needed changes to the source files so we'll have diffie hellman support, and attempt a compile.
