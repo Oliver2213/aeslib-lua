@@ -1,3 +1,8 @@
+/*
+Christophe Devine 
+c.devine@cr0.net
+http://www.cr0.net:8040/code/crypto/
+*/
 #ifndef _AES_H
 #define _AES_H
 

@@ -25,7 +25,7 @@ The AES implementations used here were written by Christophe Devine.
 
 #include "lua.h"
 #include "lauxlib.h"
-
+#include "lualib.h"
 #include "aes.h"
 #include "sha256.h"
 #include <malloc.h>
@@ -33,7 +33,7 @@ The AES implementations used here were written by Christophe Devine.
 #include <stdlib.h>
 
 #pragma comment( lib, "lua.lib" )
-#pragma comment( lib, "lualib.lib" )
+//#pragma comment( lib, "lualib.lib" )
 
 /* Uncomment this to provide a "test" function */
 

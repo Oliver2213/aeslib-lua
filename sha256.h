@@ -1,3 +1,8 @@
+/*
+Christophe Devine 
+c.devine@cr0.net
+http://www.cr0.net:8040/code/crypto/
+*/
 #ifndef _SHA256_H
 #define _SHA256_H
 
@@ -22,3 +27,4 @@ void sha256_update( sha256_context *ctx, uint8 *input, uint32 length );
 void sha256_finish( sha256_context *ctx, uint8 digest[32] );
 
 #endif /* sha256.h */
+
