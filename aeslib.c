@@ -21,8 +21,8 @@ The AES implementations used here were written by Christophe Devine.
 
 */
 
-#define LUA_API __declspec(dllexport)
-
+#define LUA_BUILD_AS_DLL
+#define LUA_LIB
 #include "lua.h"
 #include "lauxlib.h"
 #include "lualib.h"
